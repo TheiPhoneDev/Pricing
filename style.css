@@ -1,0 +1,98 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.brand-name {
+    font-family: sans-serif;
+    font-size: 60px;
+}
+
+.brand-sub {
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.subscriptions {
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+.subscription-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+}
+
+.plan {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    box-shadow: 2px 2px 2px 2px #a5a5a5;
+    border-radius: 10px;
+    padding: 20px;
+    color: #fff;
+    background: linear-gradient(90deg, rgba(53,50,105,1) 0%, rgba(67,67,163,1) 41%, rgba(20,15,135,1) 100%);
+}
+
+.plan:hover {
+    padding: 50px;
+    transition: 0.2s;
+    transition-timing-function: ease-in;
+}
+
+.sub-name {
+    display: flex;
+    justify-content: center;
+}
+
+.price {
+    display: flex;
+    justify-content: center;
+}
+
+.privileges {
+    display: flex;
+    justify-content: center;
+}
+
+.privileges-list {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.details {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: #fff;
+    background: #6d72d5;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 0px #1b195f;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .subscription-container {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        gap: 120px;
+    }
+
+    .brand-name {
+        font-family: sans-serif;
+        font-size: 30px;
+    }
+    
+    .brand-sub {
+        font-family: sans-serif;
+        font-size: 10px;
+    }
+}
